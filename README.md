@@ -1,30 +1,19 @@
-# Описание и преимущества системы контроля версий и сервиса GitHub.
+Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
 
-Если хотите смотреть историю развития Вашего проекта, какие изменения были, какие коммиты и кто бы автором изменений, то предлагаем ознакомиться с сервисом для хранения кода GitHub.
+JavaScript:
 
-## Сервис для хранения кода GitHub.
+<script src="https://localhost/neuro.sdk.min.js"></script>
+Java (Maven):
 
-![GitHub](https://thumbnailer.mixcloud.com/unsafe/60x60/extaudio/7/8/8/4/e6df-cf46-4215-8652-01a224c3e85c)
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+iOS (добавьте код в ваш Podfile):
 
-[Офиц.сайт](https://github.com/)
-
-
-### Преимущества:
-
-* хранение истории изменений;
-* видимость и авторство каждого изменения;
-* «резервная копия» проекта;
-* GitHub уже интегрирован с Git.
-
-
-Что нужно установить на ПК для использования Git и GitHub.
-
-* Скачать Git по [ссылке](https://git-scm.com/download/win).
-* зарегистрироваться на GitHub по [ссылке](https://github.com/).
-
-
-
-### Удачи в работе!
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
 
 
 
